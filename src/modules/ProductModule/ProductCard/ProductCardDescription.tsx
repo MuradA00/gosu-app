@@ -26,7 +26,7 @@ export const ProductCardDescription = ({
             <p className="text-white/40 text-xs xl:text-base xl:max-w-[340px]">{description}</p>
           </div>     
         </div>
-        <div className="flex flex-col xl:items-center gap-4 justify-between">
+        <div className="flex flex-col xl:flex-row xl:items-center gap-4 justify-between">
           <div className="flex flex-col leading-[150%] gap-2">
             <span className="text-white/40 text-xl hidden xl:block">Стоимость</span>
             <span className="font-medium text-[2rem]">{price} RUB</span>
