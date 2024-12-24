@@ -1,0 +1,1 @@
+export const cols = "lg:grid-cols-[30%_17.5%_17.5%_17.5%_17.5%] grid items-center"

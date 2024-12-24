@@ -1,0 +1,1 @@
+export const buttonStyles = "bg-red min-h-9 flex justify-center text-center rounded-lg text-white text-base gap-1.5 items-center px-5 transition-all duration-300 hover:scale-[1.025] will-change-transform"

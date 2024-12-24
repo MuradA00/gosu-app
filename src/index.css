@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-body text-white;
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  @apply p-0;
+}
+
+.disabled-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE и старые Edge */
+}
+
+.disabled-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.heading {
+  @apply font-semibold text-3xl uppercase;
+}
+
+.box {
+  @apply bg-gray p-5 rounded-[10px];
+}
+
+.label {
+  @apply text-xl font-medium uppercase;
+}
