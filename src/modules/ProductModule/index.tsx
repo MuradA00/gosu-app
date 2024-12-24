@@ -21,7 +21,7 @@ export const ProductsCatalog = () => {
             backgroundColor: !isFilterPopupOpened ? "#303030" : "#fff"
           }}
           onClick={() => setFilterPopupOpened(prev => !prev)} 
-          className={isFilterPopupOpened ? "text-black rounded-b-none" : "text-white"}
+          className={isFilterPopupOpened ? "!text-black rounded-b-none" : "text-white"}
         >
           Фильтры
         </Button>
