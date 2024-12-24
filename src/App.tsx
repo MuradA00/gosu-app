@@ -25,7 +25,7 @@ export const App = () => {
       className="overflow-hidden bg-[100%_auto] bg-fixed bg-left-top bg-no-repeat"
     >
       {isCookiesOpened && (
-        <div className="fixed left-1/2 -translate-x-1/2 xl:left-[initial] xl:-translate-x-0 xl:bottom-5 xl:right-5 box max-w-[360px] z-20">
+        <div className="fixed left-1/2 -translate-x-1/2 sm:left-[initial] sm:-translate-x-0 bottom-5 sm:right-5 box max-w-[360px] w-full z-20">
           <p className="leading-[120%] mb-2.5 text-sm">
             Агент, для оптимизации твоего опыта мы используем куки. Жми на кнопку и сразу приступим к миссии?          
           </p>
