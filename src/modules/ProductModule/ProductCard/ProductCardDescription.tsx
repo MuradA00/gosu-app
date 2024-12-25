@@ -45,7 +45,7 @@ export const ProductCardDescription = ({
       <div className="flex flex-col gap-[14px]">
         <div className="flex flex-col gap-1">
           <span className="text-2xl font-medium uppercase leading-[100%] block">{price} RUB</span>
-          <p className="text-white/40 text-sm font-medium leading-[120%]">
+          <p className="text-white/40 text-sm font-medium leading-[120%] line-clamp-2 md:line-clamp-[none]">
             {description}
           </p>
         </div>
