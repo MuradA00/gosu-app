@@ -31,3 +31,9 @@ ul {
 .label {
   @apply text-xl font-medium uppercase;
 }
+
+@media (hover: hover) {
+  .button-hover:hover {
+    transform: scale(1.025);
+  }
+}

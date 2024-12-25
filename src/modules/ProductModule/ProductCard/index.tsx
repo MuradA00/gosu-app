@@ -37,7 +37,7 @@ export const ProductCard = ({
         isLarge={isLarge} 
         banner={banner} 
       />
-      <div className={isLarge ? "p-[14px] xl:p-5" : "p-[14px]"}>
+      <div className={isLarge ? "p-[14px] xl:p-5" : "p-2.5 xl:p-[14px]"}>
         <ProductCardDescription 
           heading={heading || ""}
           price={price} 

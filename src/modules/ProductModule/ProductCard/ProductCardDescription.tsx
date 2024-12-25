@@ -49,7 +49,7 @@ export const ProductCardDescription = ({
             {description}
           </p>
         </div>
-        <Button href={href} className="[@media(max-width:768px)]:min-h-10 px-3">
+        <Button href={href} className="[@media(max-width:768px)]:min-h-10 !px-3">
             <img src={icon} alt="icon" />
             В корзину
         </Button>
